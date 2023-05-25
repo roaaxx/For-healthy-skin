@@ -1,0 +1,47 @@
+.inbox {
+  width: 70%;
+  background-color: #dadbde;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid #93949d;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.content {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.message-img {
+  width: 250px;
+  border: 1px solid #163563;
+}
+
+.card-btn {
+  width: 50%;
+  padding: 5px;
+  margin: auto;
+  background-color: #163563;
+  color: white;
+}
+
+.from {
+  font-size: 14px;
+  color: #8f8f8f;
+}
